@@ -149,7 +149,7 @@ body {
   color: var(--secondary-blue);
 }
 
-.menu-link-first:hover::after {
+.menu-link-first::after {
   content: "";
 
   /* -position- */
