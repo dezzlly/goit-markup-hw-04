@@ -398,6 +398,19 @@ body {
   color: var(--secondary-color);
 }
 
+.section-benefits-text {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--main-color);
+}
+
+.teammate {
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+}
+
 .section-team-header {
   margin-bottom: 8px;
   text-align: center;
@@ -408,12 +421,29 @@ body {
   color: var(--secondary-color);
 }
 
-.section-benefits-text {
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: var(--main-color);
+.social-icon-team {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  margin-top: 8px;
+}
+
+.instagram-teammate,
+.twitter-teammate,
+.facebook-teammate,
+.linkedin-teammate {
+  width: 40px;
+  height: 40px;
+}
+
+.social {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  background-color: var(--blue);
+  border-radius: 50%;
 }
 
 .section-team-text {
