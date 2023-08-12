@@ -90,6 +90,7 @@ body {
 }
 
 .page-navigation {
+  /* -container- */
   display: flex;
   align-items: center;
   width: 100%;
@@ -99,6 +100,8 @@ body {
 
 .logo-header {
   margin-right: 76px;
+
+  /* -typography- */
   font-family: "Raleway", sans-serif;
   font-size: 18px;
   font-weight: 800;
@@ -128,13 +131,12 @@ body {
   color: var(--secondary-blue);
 }
 
-.menu-link-first::before {
-  content: "";
-}
-
 .menu-link-first {
+  /* -size- */
   padding-top: 24px;
   padding-bottom: 24px;
+
+  /* -typography- */
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
@@ -183,8 +185,11 @@ body {
 }
 
 .menu-link-second {
+  /* -size- */
   padding-top: 24px;
   padding-bottom: 24px;
+
+  /* -typography- */
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
@@ -233,8 +238,11 @@ body {
 }
 
 .menu-link-third {
+  /* -size- */
   padding-top: 24px;
   padding-bottom: 24px;
+
+  /* -typography- */
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
@@ -248,9 +256,14 @@ body {
 }
 
 .page-contacts {
+  /* -size- */
   padding-top: 24px;
   padding-bottom: 24px;
+
+  /* -typography- */
   font-style: normal;
+
+  /* -container- */
   width: 100%;
   max-width: 344px;
   justify-content: space-between;
@@ -275,10 +288,16 @@ body {
 /* ============= STUDIO PAGE ============= */
 
 .page-hero {
+  /* -container- */
   display: flex;
   justify-content: space-between;
+
+  /* -size- */
+  max-width: 1440px;
   padding-top: 188px;
   padding-bottom: 188px;
+
+  /* -background- */
   background-color: var(--secondary-color);
   background-image: linear-gradient(
       rgba(46, 47, 66, 0.7),
@@ -286,6 +305,8 @@ body {
     ),
     url(../images/home/photos/hero-image.jpg);
   background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .page-hero-container {
@@ -325,6 +346,7 @@ body {
   letter-spacing: 0.04em;
   color: var(--white);
   background-color: var(--blue);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .page-hero-button:hover,
