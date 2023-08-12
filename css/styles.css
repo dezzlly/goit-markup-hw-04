@@ -288,14 +288,7 @@ body {
 /* ============= STUDIO PAGE ============= */
 
 .page-hero {
-  /* -container- */
-  display: flex;
-  justify-content: space-between;
-
-  /* -size- */
-  max-width: 1440px;
-  padding-top: 188px;
-  padding-bottom: 188px;
+  width: 1440px;
 
   /* -background- */
   background-color: var(--secondary-color);
@@ -310,11 +303,15 @@ body {
 }
 
 .page-hero-container {
+  /* -container- */
   display: flex;
   flex-direction: column;
   gap: 48px;
   align-items: center;
   justify-content: space-between;
+
+  padding-top: 188px;
+  padding-bottom: 188px;
 }
 
 .page-hero-header {
