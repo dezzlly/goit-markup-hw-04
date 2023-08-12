@@ -448,7 +448,10 @@ body {
   color: var(--secondary-white);
 }
 
-.social:hover,
+.social:hover {
+  background-color: var(--secondary-blue);
+}
+
 .social:focus {
   background-color: var(--secondary-blue);
 }
@@ -629,11 +632,10 @@ body {
   color: var(--white);
 }
 
-.social-icon-team {
+.social-icon-footer {
   display: flex;
   justify-content: center;
-  gap: 24px;
-  margin-top: 8px;
+  gap: 16px;
 }
 
 .instagram-footer,
@@ -656,7 +658,10 @@ body {
   color: var(--secondary-white);
 }
 
-.social-footer:hover,
+.social-footer:hover {
+  background-color: #31d0aa;
+}
+
 .social-footer:focus {
   background-color: #31d0aa;
 }
