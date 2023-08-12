@@ -79,6 +79,9 @@ body {
 /* ============= PAGE HEADER ============= */
 .page-header {
   border-bottom: 1px solid #e7e9fc;
+  box-shadow: 0px 1px 6px 0px rgba(46, 47, 66, 0.08),
+    0px 1px 1px 0px rgba(46, 47, 66, 0.16),
+    0px 2px 1px 0px rgba(46, 47, 66, 0.08);
 }
 
 .page-header-container {
@@ -115,13 +118,42 @@ body {
 }
 
 .menu-link-first {
+  /* -position- */
+  position: relative;
+
+  /* -size- */
   padding-top: 24px;
   padding-bottom: 24px;
+
+  /* -typography- */
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: var(--secondary-color);
+
+  /* -text color- */
+  color: var(--secondary-blue);
+
+  /* -bridge- */
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.menu-item::after {
+  content: "";
+
+  /* -position- */
+  position: absolute;
+  left: 0;
+  bottom: -1px;
+
+  /* -size- */
+  height: 4px;
+
+  /* -color- */
+  background-color: var(--secondary-blue);
+
+  /* -displaing- */
+  border-radius: 2px;
 }
 
 .menu-link-second {
@@ -149,14 +181,6 @@ body {
   gap: 40px;
 }
 
-.contacts-link {
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: var(--main-color);
-}
-
 .page-contacts {
   padding-top: 24px;
   padding-bottom: 24px;
@@ -164,6 +188,20 @@ body {
   width: 100%;
   max-width: 344px;
   justify-content: space-between;
+}
+
+.contacts-link {
+  /* -typography- */
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+
+  /* -text color- */
+  color: var(--main-color);
+
+  /* -bridge- */
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .menu-link-first:hover,
