@@ -596,12 +596,6 @@ body {
   color: var(--white);
 }
 
-.social-icon-footer {
-  display: flex;
-  justify-content: center;
-  gap: 16px;
-}
-
 .instagram-footer,
 .twitter-footer,
 .facebook-footer,
@@ -631,6 +625,9 @@ body {
 }
 
 .social-icon-footer {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
   fill: currentColor;
 }
 
