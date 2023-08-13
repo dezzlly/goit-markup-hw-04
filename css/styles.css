@@ -409,7 +409,6 @@ body {
 .teammate {
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .section-team-header {
@@ -446,6 +445,7 @@ body {
   background-color: var(--blue);
   border-radius: 50%;
   color: var(--secondary-white);
+  transition: background-color 2500ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .social:hover {
@@ -644,7 +644,6 @@ body {
 .linkedin-footer {
   width: 40px;
   height: 40px;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .social-footer {
@@ -656,6 +655,7 @@ body {
   background-color: var(--blue);
   border-radius: 50%;
   color: var(--secondary-white);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .social-footer:hover {
