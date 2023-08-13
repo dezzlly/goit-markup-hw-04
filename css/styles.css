@@ -452,7 +452,7 @@ body {
   background-color: var(--secondary-blue);
 }
 
-.social:focus {
+.social:active {
   background-color: var(--secondary-blue);
 }
 
@@ -662,7 +662,7 @@ body {
   background-color: #31d0aa;
 }
 
-.social-footer:focus {
+.social-footer:active {
   background-color: #31d0aa;
 }
 
