@@ -416,7 +416,7 @@ body {
   background-color: var(--secondary-blue);
 }
 
-.social:active {
+.social:focus {
   background-color: var(--secondary-blue);
 }
 
@@ -626,7 +626,7 @@ body {
   background-color: #31d0aa;
 }
 
-.social-footer:active {
+.social-footer:focus {
   background-color: #31d0aa;
 }
 
